@@ -7,7 +7,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 
 public class ToDoList {
 	/*
@@ -33,7 +35,8 @@ public class ToDoList {
 	private static ArrayList<String> list = new ArrayList<String>();
 	private final static String defaultLocation = "src/_03_To_Do_list/listFile.txt";
 	public static void main(String[] args) {
-		
+		JFrame frame = new JFrame();
+		JPanel panel = new JPanel();
 	}
 	public static void addTask() {
 		String s = JOptionPane.showInputDialog("Give me a task");
